@@ -1,0 +1,9 @@
+명령어 정리
+
+1. Find &replace
+find ./ -name strings.xml -exec sed -i "s/\" product=\"nosdcard/_nosdcard/g" {} \;
+
+2. OTA 서버 정보
+- HOST : update.bluebird.co.kr
+- ID : update.bluebird.co.kr|pidionupdate
+- PASSWORD : bbuppidion
